@@ -1,0 +1,19 @@
+{
+  "name": "symfony-plugins/sf-form-extra-plugin",
+  "description": "The sfFormExtraPlugin packages useful validators, widgets, and forms.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fabien Potencier",
+      "email": "fabien@symfony.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "lib/form",
+      "lib/validator",
+      "lib/widget"
+    ]
+  }
+}
